@@ -5,3 +5,4 @@ def my_function(food):
 
 my_function('apple banana cherry')
 my_function('woaw it is amazing')
+my_function('kleiding jurk socks')
