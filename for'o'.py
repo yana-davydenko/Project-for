@@ -1,8 +1,11 @@
-def my_function(food):
-  for x in food:
-    print('the quantity of the letter a:', food.count('a'))
-    break
+def my_function(sentence, letter):
+  i = 0
+  for x in sentence:
+    if x == letter:
+     i += 1
+  print('the quantity of the letter:', i)
 
-my_function('apple banana cherry')
-my_function('woaw it is amazing')
-my_function('kleiding jurk socks')
+my_function('apple banana cherry', 'a')
+my_function('kleiding jurk socks', 'k')
+my_function("i like dancing", "i")
+my_function('stay positive and never stop', 'n')
